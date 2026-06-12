@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            padding: 20px;
+            transition: 0.3s;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        @media(max-width:768px) {
+            body {
+                background-color: lightblue;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media(max-width:480px) {
+            body {
+                background-color: lightcoral;
+            }
+
+            h1 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Media </h1>
+        <p>To change the appearance on cross device platform</p>
+    </div>
+
+</body>
+
+</html>
